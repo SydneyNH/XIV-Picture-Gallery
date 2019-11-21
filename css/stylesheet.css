@@ -1,10 +1,41 @@
-html {
+.bg-image {
 	
-	background-image: url("../pics/sunsetcrop.png");
-	background-color: #361e0f;
-	background-size: cover;
+	background: #361e0f url("../pics/sunsetcrop.png") no-repeat left;
+	/*background-color: #361e0f;
+	background-image: url("../pics/sunsetcrop.png")
 	background-repeat: no-repeat;
+	background-position: left;*/
 	height: 850px;
-	background-position: left;
+	background-size: cover;
+	
+}
+
+header {
+	
+	display: block;
+	background: rgba(0, 0, 0, 0.5);
+	color: rgba(240, 240, 240, 1);
+	width: 100%;
+	text-align: right;
+	font-size: 40px;
+	font-style: italic;
+	
+}
+
+section {
+	
+	display: block;
+	color: rgba(240, 240, 240, 1);
+	width: 100%;
+	text-align: right;
+	
+}
+	
+
+@media all and (max-width: 800px){
+	
+header{ 
+	
+	text-align: center;
 	
 }
