@@ -1,1 +1,10 @@
-placeholder
+html {
+	
+	background-image: url("../pics/sunsetcrop.png");
+	background-color: #361e0f;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 850px;
+	background-position: left;
+	
+}
