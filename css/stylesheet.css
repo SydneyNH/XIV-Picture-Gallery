@@ -10,6 +10,14 @@
 	
 }
 
+.xiv-logo {
+	
+	float: right;
+	height: 500px;
+	
+	
+}
+
 header {
 	
 	display: block;
@@ -28,6 +36,8 @@ section {
 	color: rgba(240, 240, 240, 1);
 	width: 100%;
 	text-align: right;
+	font-size: 20px;
+	font-style: italic;
 	
 }
 	
@@ -37,5 +47,11 @@ section {
 header{ 
 	
 	text-align: center;
+	
+}
+
+.xiv-logo{
+	
+	height: 300px;
 	
 }
